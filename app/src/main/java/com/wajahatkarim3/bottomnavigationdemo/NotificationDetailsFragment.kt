@@ -16,15 +16,4 @@ class NotificationDetailsFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_notification_details, container, false)
     }
-
-    override fun onAttach(context: Context) {
-        (activity as MainActivity)?.hideBottomNavigation()
-        super.onAttach(context)
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        (activity as MainActivity)?.showBottomNavigation()
-    }
-
 }
