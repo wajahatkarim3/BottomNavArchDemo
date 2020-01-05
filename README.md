@@ -1,15 +1,21 @@
 # 🚀 Beginner's Guide to Bottom Navigation with Android Jetpack
 A demo project to create Bottom Navigation with Jetpack Navigation in Android and discusses the details in the companion Medium article at https://medium.com/@WajahatKarim3/beginners-guide-to-bottom-navigation-with-android-jetpack
 
-![](https://github.com/wajahatkarim3/BottomNavArchDemo/blob/master/Demo.gif)
-
 The articles explains:
 
 🚀 Simple Bottom Navigation with Jetpack Navigation
+
 🎨 Adjusting AppBar/Toolbar for Top Level Destinations
+
 ☑️ Adding Menu Options
+
 🗒 Creating Detail Screens
+
 🛑 Exiting on Double Back-Press Tap
+
+<div align="center">
+  <img src="https://github.com/wajahatkarim3/BottomNavArchDemo/blob/master/Demo.gif" width="280px" />
+</div>
 
 ***
 ## 👨 Developed By
