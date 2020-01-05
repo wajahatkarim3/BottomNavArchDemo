@@ -3,6 +3,7 @@ package com.wajahatkarim3.bottomnavigationdemo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.view.View
 import android.widget.Toast
 import androidx.core.os.postDelayed
 import androidx.navigation.NavController
@@ -34,6 +35,16 @@ class MainActivity : AppCompatActivity() {
         //var appBarConfiguration = AppBarConfiguration(navHostFragment.navController.graph)
         var appBarConfiguration = AppBarConfiguration(setOf(R.id.homeFragment, R.id.searchFragment, R.id.notificationsFragment, R.id.profileFragment))
         setupActionBarWithNavController(navHostFragment.navController, appBarConfiguration)
+    }
+
+    fun showBottomNavigation()
+    {
+        bottomNavView.visibility = View.VISIBLE
+    }
+
+    fun hideBottomNavigation()
+    {
+        bottomNavView.visibility = View.GONE
     }
 
     private var backPressedOnce = false
