@@ -29,6 +29,7 @@
         android:layout_gravity="bottom"
         android:background="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
         style="@style/Widget.MaterialComponents.BottomNavigationView"
         app:itemIconTint="@color/color_bottom_icon"
         app:itemTextColor="@color/color_bottom_icon"

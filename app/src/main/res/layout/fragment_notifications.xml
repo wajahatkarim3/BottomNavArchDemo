@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Notification Details"
+        android:textColor="@color/colorPrimary"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         />
 
