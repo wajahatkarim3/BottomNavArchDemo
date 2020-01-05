@@ -19,10 +19,19 @@
         android:id="@+id/notificationsFragment"
         android:name="com.wajahatkarim3.bottomnavigationdemo.NotificationsFragment"
         android:label="Notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications" >
+        <action
+            android:id="@+id/action_notificationsFragment_to_notificationDetailsFragment"
+            app:destination="@id/notificationDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.wajahatkarim3.bottomnavigationdemo.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/notificationDetailsFragment"
+        android:name="com.wajahatkarim3.bottomnavigationdemo.NotificationDetailsFragment"
+        android:label="Notification Details"
+        tools:layout="@layout/fragment_notification_details" />
 </navigation>
