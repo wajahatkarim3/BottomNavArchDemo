@@ -1,5 +1,5 @@
 # 🚀 Beginner's Guide to Bottom Navigation with Android Jetpack
-A demo project to create Bottom Navigation with Jetpack Navigation in Android and discusses the details in the companion Medium article at https://medium.com/@WajahatKarim3/beginners-guide-to-bottom-navigation-with-android-jetpack
+A demo project to create Bottom Navigation with Jetpack Navigation in Android and discusses the details in the companion Medium article at https://android.jlelse.eu/beginners-guide-to-bottom-navigation-with-android-jetpack-5485d2b8bbb5
 
 The articles explains:
 
